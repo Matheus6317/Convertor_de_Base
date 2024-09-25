@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="title">
+                <b>
+                    Convertor de Base
+                </b>
+            </div>
+            <div class="coluna">
+                <div class="decoration">
+                    <div class="num">Digite um numero</div>
+                    <div class="asterisco">*</div>
+                </div>
+                <div>
+                    <input type="text" placeholder="0" class="tezt" id="num">
+                </div>
+            </div>
+            <div class="combinar_convertor">
+                <div class="first_part">
+                    <label>
+                        <input type="radio" name="unit" id="dec_bin">
+                        Decimal ▶ Binário
+                    </label>
+                    <label>
+                        <input type="radio" name="unit" id="dec_ter">
+                        Decimal ▶ Ternário</label>
+                    </label>
+                    <label>
+                        <input type="radio" name="unit" id="dec_oct">
+                        Decimal ▶ Octadecimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit" id="dec_hex">
+                        Decimal ▶ Hexadecimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit" id="bin_dec">
+                        Binário ▶ Decimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Binário ▶ Ternário
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Binário ▶ Octadecimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Binário ▶ Hexadecimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit" id="ter_dec">
+                        Ternário ▶ Decimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Ternário ▶ Binário
+                    </label>
+                </div>
+                <div class="second_part">
+                    <label>
+                        <input type="radio" name="unit">
+                        Ternário ▶ Octadecimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Ternário ▶ Hexadecimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Octadecimal ▶ Decimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Octadecimal ▶ Binário
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Octadecimal ▶ Ternário
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Octadecimal ▶ Hexadecimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Hexadecimal ▶ Decimal
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Hexadecimal ▶ Binário
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Hexadecimal ▶ Ternário
+                    </label>
+                    <label>
+                        <input type="radio" name="unit">
+                        Hexadecimal ▶ Octadecimal
+                    </label>
+                </div>
+            </div>
+            <div class="final">
+                <input type="button" value="converter" class="but" onclick="converter()">
+                <p id="saida" class="resposta"></p>
+            </div>
+        </div>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

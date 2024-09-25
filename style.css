@@ -1,0 +1,83 @@
+body{
+    background-color: rgba(221, 255, 208, 0.897);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    border: 1px solid;
+    height: 850px;
+    width: 600px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 15px 15px 20px;
+}
+.combinar_convertor{
+    display: flex;
+    gap: 200px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.first_part{
+    display: grid;
+    margin-left: 35px;
+    gap: 15px;
+}
+.second_part{
+    display: grid;
+}
+.title{
+    text-align: center;
+    font-size: 28px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.decoration{
+    display: flex;
+}
+.asterisco{
+    color: green;
+}
+.num{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.507);
+}
+.coluna{
+    display: grid;
+    gap: 5px;
+    place-items: center;
+    margin-top: 10px;
+}
+.tezt{
+    font-size: 30px;
+    border-color: green;
+    border-radius: 15px;
+}
+.final{
+    text-align: center;
+}
+.but{
+    margin-top: 15px;
+    font-size: 30px;
+    width: 300px;
+    background-color: hsl(160, 95%, 37%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.but:hover{
+    cursor: pointer;
+    background-color: hsl(160, 95%, 50%);
+}
+.but:active{
+    background-color: white;
+    color: blue;
+}
+.resposta{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
